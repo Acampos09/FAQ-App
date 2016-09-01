@@ -1,0 +1,14 @@
+{
+  "name": "Test",
+  "version": "0.1.0",
+  "main": "main.js",
+  "description": "test app",
+  "scripts": {
+    "package": "electron-packager . batman --platform=win32 --arch=all"
+  },
+  "devDependencies": {
+    "electron": "^1.3.4",
+    "electron-packager": "^7.7.0",
+    "electron-prebuilt": "^1.3.4"
+  }
+}
